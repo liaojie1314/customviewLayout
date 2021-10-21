@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--    android:gravity="center"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.example.customview.customview.keypad.KeypadView
+        android:id="@+id/key_pad_view"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#00ffaa"
+        android:padding="5dp"
+        app:itemMargin="4dp"
+        app:numberSize="20sp" />
+
+    <!--    <com.example.customview.customview.flow.FlowLayout-->
+    <!--        android:id="@+id/flow_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        app:maxLine="3"-->
+    <!--        app:textMaxLength="10"-->
+    <!--        android:layout_height="match_parent" />-->
+
+
+    <!--login页面-->
+    <!--    <Button-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="toLoginPage"-->
+    <!--        android:text="toLoginPage" />-->
+
+
+    <!--    <com.example.customview.customview.numberinput.InputNumberView-->
+    <!--        android:id="@+id/input_number_view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        custom:defaultValue="1"-->
+    <!--        custom:max="100"-->
+    <!--        custom:min="0"-->
+    <!--        custom:step="1" />-->
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="text_get_verify_code">请输入验证码</string>
+    <string name="text_user_report">获取验证码</string>
+    <string name="text_confirm">登录</string>
+    <string name="text_number_input">请输入11位手机号码</string>
+    <string name="text_title">阳光沙滩账号登录</string>
+    <string name="text_agreement">同意 《阳光沙滩用户使用协议》</string>
+    <string name="text_read">已读</string>
+    <string name="text_top_tips">置顶</string>
+    <string name="text_delete_tips">删除</string>
+    <string name="group_information">群通知</string>
+</resources>
